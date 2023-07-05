@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body bgcolor="lightskyblue">
+    <form action="form.php">
+        <div>
+            Name:
+            <br>
+            <br>
+           <label for="First name"></label>
+           <input type="text"  name="First name" placeholder="First Name">
+           <br>
+           <br>
+           <label for="Middle name"></label>
+           <input type="text" name="Middle name" placeholder="Middle Name">
+           <br>
+           <br>
+           <label for="Last Name"></label>
+           <input type="text" name="Last name" placeholder="Last name">
+           <br> 
+           <br>    
+           Course:
+           <br>
+           <br>  
+           <select name="Course" id="Course">
+            <option value="Course">Course</option>
+            <option value="BBA">BBA</option>
+            <option value="BCA">BCA</option>
+            <option value="B.tech">B.tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.tech">M.tech</option>
+           </select>   
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           Gender:
+           <br>
+          <label for="Male">
+           <input type="radio" name="Gender" value="Male" id="Male">Male<br>
+        </label>
+        <label for="Female">
+           <input type="radio" name="Gender" value="Female" id="Female">Female<br>
+        </label>
+        <label for="Others">
+           <input type="radio" name="Gender" value="Others" id="Others">Others<br>
+        </label>
+        <br>
+        <br>
+        <br>
+        phone:
+        <label for="phone"></label>
+        <input type="text" name="country code" value="+91" size="2"> 
+        <input type="text" name="phone" size="10">
+        <br>
+        <br>
+        Address:
+        <br>
+        <br>
+        <br>
+        <label for="Address"></label>
+      <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter your full address"></textarea>
+      <br>
+      <br>
+      <br>
+      Email:
+      <br>
+      <br>
+
+      <label for="Email"></label>
+      <input type="email" name="Email" id="Email">
+      <br>
+      <br>
+      Password:
+      <label for="Password"></label>
+      <input type="password" id="Pass">
+      <br>
+      <br>
+      Re type Password:
+      <input type="password"  id="Repass">
+      <br>
+      <br>
+      <input type="button" value="submit">
+        </div>
+    </form>
+    
+</body>
+</html>
